@@ -14,8 +14,8 @@ Este é um site de catálogo interativo desenvolvido para facilitar os pedidos d
 
 - **React** (Front-end)
 - **Vite** (Build tool rápida)
-- **Tailwind CSS** (Estilização moderna)
-- **Lucide React** (Ícones)
+- **CSS** (Estilização moderna)
+- **React** (Ícones)
 - **TypeScript** (Segurança no código)
 
 ## 📦 Como rodar o projeto localmente
