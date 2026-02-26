@@ -21,5 +21,13 @@ Este é um site de catálogo interativo desenvolvido para facilitar os pedidos d
 ## 📦 Como rodar o projeto localmente
 
 1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/SEU_USUARIO/NOME_DO_REPO.git](https://github.com/SEU_USUARIO/NOME_DO_REPO.git)
+   ```
+   git clone [https://github.com/ArthurJager04/BelartDoceria.git](https://github.com/ArthurJaeger04/BelartDoceria.git)
+
+2. Instale as dependências:
+   ```
+   npm install
+
+3. Inicie o servidor de desenvolvimento:
+   ```
+   npm run dev
