@@ -1,0 +1,44 @@
+// Configuração do Banco de Dados
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Tabela de Produtos (Os Doces da Belart)
+model Product {
+  id           String   @id @default(cuid())
+  name         String   // Ex: "Brigadeiro Tradicional"
+  description  String   // A descrição deliciosa do doce
+  priceUnit    Float    // Preço unitário (ex: 3.50)
+  price50      Float    // Preço para 50 unidades (ex: 125.00)
+  price100     Float    // Preço para 100 unidades (ex: 215.00)
+  imageUrl     String   // Link da foto do doce
+  category     String   // Ex: "Tradicionais", "Especiais"
+  createdAt    DateTime @default(now())
+}
+
+// Tabela de Usuários (Clientes)
+model User {
+  id        String   @id @default(cuid())
+  name      String?
+  email     String   @unique
+  phone     String?  // Contato para combinar entrega
+  orders    Order[]
+}
+
+// Tabela de Pedidos (Vendas)
+model Order {
+  id            String   @id @default(cuid())
+  userId        String
+  user          User     @relation(fields: [userId], references: [id])
+  items         Json     // Lista de doces e quantidades compradas
+  totalAmount   Float    // Valor total da compra
+  status        String   @default("PENDING") // PENDENTE, PAGO, ENTREGUE
+  scheduledFor  DateTime // Data/Hora escolhida via Google Agenda
+  paymentId     String?  // ID da transação no Stripe/InfinitePay
+  createdAt     DateTime @default(now())
+}
