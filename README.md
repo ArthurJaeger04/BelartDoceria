@@ -22,7 +22,7 @@ Este é um site de catálogo interativo desenvolvido para facilitar os pedidos d
 
 1. Clone o repositório:
    ```
-   git clone [https://github.com/ArthurJager04/BelartDoceria.git](https://github.com/ArthurJaeger04/BelartDoceria.git)
+   git clone [https://github.com/ArthurJaeger04/BelartDoceria.git](https://github.com/ArthurJaeger04/BelartDoceria.git)
 
 2. Instale as dependências:
    ```
