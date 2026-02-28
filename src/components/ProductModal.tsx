@@ -7,6 +7,11 @@ import beijinho from "@/assets/beijinho.png";
 import doceDeLeite from "@/assets/doce-de-leite.png";
 import assorted from "@/assets/assorted-truffles.png";
 import Confete from "@/assets/Confete.jpeg";
+import Oreo from "@/assets/Oreo.png";
+import paçoca from "@/assets/Paçoca.png";
+import maracuja from "@/assets/Maracuja.png";
+import nuttela from "@/assets/Nuttela.png";
+
 
 const imageMap: Record<string, string> = {
   brigadeiro,
@@ -14,6 +19,10 @@ const imageMap: Record<string, string> = {
   "doce-de-leite": doceDeLeite,
   assorted,
   confete: Confete,
+  oreo: Oreo,
+  paçoca: paçoca,
+  maracuja: maracuja,
+  nuttela: nuttela,
 };
 
 interface ProductModalProps {

@@ -55,7 +55,7 @@ export const products: Product[] = [
     name: "Leite em Pó com Nutella",
     description: "Combinação irresistível de leite em pó com creme de avelã.",
     category: "especial",
-    image: "assorted",
+    image: "nuttela",
     priceOptions: [
       { label: "Unidade", quantity: 1, price: 4.00 },
       { label: "50 unidades", quantity: 50, price: 140.00 },
@@ -67,7 +67,7 @@ export const products: Product[] = [
     name: "Maracujá",
     description: "Brigadeiro tropical de maracujá, com o equilíbrio perfeito entre doce e ácido. Fresco e sofisticado.",
     category: "especial",
-    image: "assorted",
+    image: "maracuja",
     priceOptions: [
       { label: "Unidade", quantity: 1, price: 4.00 },
       { label: "50 unidades", quantity: 50, price: 140.00 },
@@ -91,7 +91,7 @@ export const products: Product[] = [
     name: "Paçoca",
     description: "O sabor brasileiro da paçoca em forma de brigadeiro gourmet. Crocante por fora, cremoso por dentro.",
     category: "especial",
-    image: "assorted",
+    image: "paçoca",
     priceOptions: [
       { label: "Unidade", quantity: 1, price: 4.00 },
       { label: "50 unidades", quantity: 50, price: 140.00 },
@@ -103,7 +103,7 @@ export const products: Product[] = [
     name: "Oreo",
     description: "Brigadeiro gourmet com pedaços de biscoito Oreo.",
     category: "especial",
-    image: "assorted",
+    image: "oreo",
     priceOptions: [
       { label: "Unidade", quantity: 1, price: 4.00 },
       { label: "50 unidades", quantity: 50, price: 140.00 },
