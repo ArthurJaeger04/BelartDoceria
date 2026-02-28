@@ -6,12 +6,14 @@ import brigadeiro from "@/assets/brigadeiro.png";
 import beijinho from "@/assets/beijinho.png";
 import doceDeLeite from "@/assets/doce-de-leite.png";
 import assorted from "@/assets/assorted-truffles.png";
+import Confete from "@/assets/Confete.jpeg";
 
 const imageMap: Record<string, string> = {
   brigadeiro,
   beijinho,
   "doce-de-leite": doceDeLeite,
   assorted,
+  confete: Confete,
 };
 
 interface ProductModalProps {
