@@ -1,4 +1,4 @@
-import heroImage from "@/assets/Doces 1.jpeg";
+import heroImage from "@/assets/Zoom cbb.jpeg";
 
 const Hero = () => {
   return (
@@ -26,11 +26,11 @@ const Hero = () => {
           className="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-foreground leading-tight mb-6 opacity-0 animate-fade-up"
           style={{ animationDelay: "0.3s" }}
         >
-          Onde o<br />
-          <span className="text-primary">doce</span> encontra a <span className="text-primary">arte</span>
+          Onde o <span className="text-gradient-gold">doce</span><br />
+           encontra a <span className="text-gradient-gold">arte</span>
         </h1>
         <p
-          className="font-body text-lg md:text-xl text-muted-foreground max-w-xl mx-auto mb-10 opacity-0 animate-fade-up"
+          className="font-body text-lg md:text-xl text-muted-foreground max-w-xl mx-auto mb-10 opacity-0 animate-fade-up text-primary"
           style={{ animationDelay: "0.5s" }}
         >
           Brigadeiros gourmet feitos com ingredientes selecionados, 
